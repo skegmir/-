@@ -1,0 +1,375 @@
+import turtle  # импорт черепахи
+
+turtle.setup(1200, 1000)  # размер окна
+wn = turtle.Screen()  # создание игровой площадки для черепахи
+wn.title('светофор')  # заголовок
+wn.bgcolor('skyblue')  # цвет фона окна
+tess = turtle.Turtle()  # имя 1 черепахи
+alex = turtle.Turtle()  # имя 2 черепахи
+henry = turtle.Turtle()  # имя 3 черепахи
+skeg = turtle.Turtle()  # имя 4 черепахи
+bux = turtle.Turtle()  # имя 5 черепахи
+dar = turtle.Turtle()  # имя 6 черепахи
+ger = turtle.Turtle()  # имя 7 черепахи
+mot = turtle.Turtle()  # имя 8 черепахи
+pas = turtle.Turtle()  # имя 9 черепахи
+hub = turtle.Turtle()  # имя 10 черепахи
+tyrc = turtle.Turtle()  # имя 11 черепахи
+abama = turtle.Turtle()  # имя 12 черепахи
+pes = turtle.Turtle()  # имя 13 черепахи
+her = turtle.Turtle()  # имя 14 черепахи
+ban = turtle.Turtle()  # имя 15 черепахи
+goga = turtle.Turtle()  # имя 16 черепахи
+bili = turtle.Turtle()  # имя 17 черепахи
+port = turtle.Turtle()  # имя 18 черепахи
+chin = turtle.Turtle()  # имя 19 черепахи
+cin = turtle.Turtle()  # имя 20 черепахи
+kim = turtle.Turtle()  # имя 21 черепахи
+oleg = turtle.Turtle()  # имя 22 черепахи
+bro = turtle.Turtle()  # имя 23 черепахи
+shym = turtle.Turtle()  # имя 24 черепахи
+
+
+def draw_housing():
+    """ корпус """
+    tess.pensize(3)  # ширина пера
+    tess.color('black', 'white')  # цвет пера 
+    tess.begin_fill()  # заливка
+    tess.forward(80)  # перемещение
+    tess.left(90)  # поворот
+    tess.forward(200)
+    tess.circle(40, 180)  # нарисовать полукруг
+    tess.forward(200)
+    tess.left(90)
+    tess.end_fill()  # закончить закрашивание
+    skeg.pensize(3)  # ширина пера
+    skeg.color('black', 'white')  # цвет пера 
+    skeg.begin_fill()  # заливка
+    skeg.forward(300)  # перемещение
+    bux.forward(220)
+    dar.forward(220)
+    skeg.left(90)  # поворот
+    skeg.forward(200)
+    skeg.circle(40, 180)  # нарисовать полукруг
+    skeg.forward(200)
+    skeg.left(90)
+    skeg.end_fill()  # закончить закрашивание
+    ger.pensize(3)  # ширина пера
+    ger.color('black', 'white')  # цвет пера 
+    ger.forward(400)  # перемещение
+    ger.left(270)
+    ger.forward(40)
+    ger.left(90)
+    mot.forward(400)
+    mot.left(270)
+    mot.forward(40)
+    mot.left(90)
+    mot.forward(20)
+    pas.forward(400)
+    pas.left(270)
+    pas.forward(40)
+    pas.left(90)
+    pas.forward(20)
+    ger.begin_fill()  # заливка
+    ger.forward(100)
+    ger.left(90)  # поворот
+    ger.forward(200)
+    ger.circle(40, 180)  # нарисовать полукруг
+    ger.forward(200)
+    ger.left(90)
+    ger.end_fill()  # закончить закрашивание
+    hub.pensize(3)  # ширина пера
+    hub.color('black', 'white')  # цвет пера 
+    hub.forward(400)  # перемещение
+    hub.left(270)  # поворот
+    hub.forward(400)
+    hub.left(90)
+    tyrc.forward(400)
+    tyrc.left(270)
+    tyrc.forward(400)
+    tyrc.left(90)
+    tyrc.forward(20)
+    abama.forward(400)
+    abama.left(270)
+    abama.forward(400)
+    abama.left(90)
+    abama.forward(20)
+    hub.begin_fill()  # заливка
+    hub.forward(100)
+    hub.left(90)
+    hub.forward(200)
+    hub.circle(40, 180)  # нарисовать полукруг
+    hub.forward(200)
+    hub.left(90)
+    hub.end_fill()  # закончить закрашивание
+    pes.pensize(3)  # ширина пера
+    pes.color('black', 'white')  # цвет пера 
+    pes.left(180)
+    pes.forward(100)
+    pes.left(90)
+    pes.forward(40)
+    pes.left(270)
+    pes.forward(10)
+    her.left(180)
+    her.forward(100)
+    her.left(90)
+    her.forward(40)
+    her.left(270)
+    her.forward(100)
+    her.left(180)
+    ban.left(180)
+    ban.forward(100)
+    ban.left(90)
+    ban.forward(40)
+    ban.left(270)
+    ban.forward(100)
+    ban.left(180)
+    pes.begin_fill()  # заливка
+    pes.forward(10)
+    pes.left(270)
+    pes.forward(200)
+    pes.circle(40, 180)  # нарисовать полукруг
+    pes.forward(200)
+    pes.left(90)
+    pes.forward(80)
+    pes.left(180)
+    pes.forward(80)
+    pes.left(180)
+    pes.end_fill()  # закончить закрашивание
+    goga.pensize(3)  # ширина пера
+    goga.color('black', 'white')  # цвет пера 
+    goga.left(180)
+    goga.forward(100)
+    goga.left(90)
+    goga.forward(400)
+    goga.left(270)
+    goga.forward(10)
+    bili.left(180)
+    bili.forward(100)
+    bili.left(90)
+    bili.forward(400)
+    bili.left(270)
+    bili.forward(100)
+    bili.left(180)
+    port.left(180)
+    port.forward(100)
+    port.left(90)
+    port.forward(400)
+    port.left(270)
+    port.forward(100)
+    port.left(180)
+    goga.begin_fill()  # заливка
+    goga.forward(10)
+    goga.left(270)
+    goga.forward(200)
+    goga.circle(40, 180)  # нарисовать полукруг
+    goga.forward(200)
+    goga.left(90)
+    goga.forward(80)
+    goga.left(180)
+    goga.forward(80)
+    goga.left(180)
+    goga.end_fill()  # закончить закрашивание
+    chin.pensize(3)  # ширина пера
+    chin.color('black', 'white')  # цвет пера 
+    chin.left(180)
+    chin.forward(100)
+    chin.left(90)
+    chin.forward(440)
+    chin.left(90)
+    chin.forward(100)
+    cin.left(180)
+    cin.forward(100)
+    cin.left(90)
+    cin.forward(440)
+    cin.left(90)
+    cin.forward(100)
+    kim.left(180)
+    kim.forward(100)
+    kim.left(90)
+    kim.forward(440)
+    kim.left(90)
+    kim.forward(100)
+    chin.pensize(3)  # ширина пера
+    chin.color('black', 'white')  # цвет пера 
+    chin.begin_fill()  # заливка
+    chin.forward(80)  # перемещение
+    chin.left(90)  # поворот
+    chin.forward(200)
+    chin.circle(40, 180)  # нарисовать полукруг
+    chin.forward(200)
+    chin.left(90)
+    chin.end_fill()  # закончить закрашивание
+    oleg.pensize(3)  # ширина пера
+    oleg.color('black', 'white')  # цвет пера 
+    oleg.left(180)
+    oleg.forward(100)
+    oleg.left(90)
+    oleg.forward(440)
+    oleg.left(90)
+    oleg.forward(320)
+    bro.left(180)
+    bro.forward(100)
+    bro.left(90)
+    bro.forward(440)
+    bro.left(90)
+    bro.forward(320)
+    shym.left(180)
+    shym.forward(100)
+    shym.left(90)
+    shym.forward(440)
+    shym.left(90)
+    shym.forward(320)
+    oleg.pensize(3)  # ширина пера
+    oleg.color('black', 'white')  # цвет пера 
+    oleg.begin_fill()  # заливка
+    oleg.forward(80)  # перемещение
+    oleg.left(90)  # поворот
+    oleg.forward(200)
+    oleg.circle(40, 180)  # нарисовать полукруг
+    oleg.forward(200)
+    oleg.left(90)
+    oleg.end_fill()  # закончить закрашивание
+    
+
+
+
+draw_housing()
+
+
+def circle(t, ht, colr):
+    """Расположите черепашку на том месте, где должны быть светильники, и
+превратите черепашку в большой круг"""
+    t.penup()  # не рисовать
+    t.forward(40)
+    t.left(90)
+    t.forward(ht)
+    t.shape('circle')  # круг
+    t.shapesize(3)  # размер круга
+    t.fillcolor(colr)  # покрасить круг
+
+
+circle(tess, 50, 'green')
+circle(alex, 120, 'orange')
+circle(henry, 190, 'red')
+circle(skeg, 50, 'green')
+circle(bux, 120, 'orange')
+circle(dar, 190, 'red')
+circle(ger, 50, 'green')
+circle(mot, 120, 'orange')
+circle(pas, 190, 'red')
+circle(hub, 50, 'green')
+circle(tyrc, 120, 'orange')
+circle(abama, 190, 'red')
+circle(pes, 50, 'green')
+circle(her, 120, 'orange')
+circle(ban, 190, 'red')
+circle(goga, 50, 'green')
+circle(bili, 120, 'orange')
+circle(port, 190, 'red')
+circle(chin, 50, 'green')
+circle(cin, 120, 'orange')
+circle(kim, 190, 'red')
+circle(oleg, 50, 'green')
+circle(bro, 120, 'orange')
+circle(shym, 190, 'red')
+
+
+
+
+
+
+# переменная содержащая текущее состояние машины
+state_num = 0
+
+
+def advance_state_machine():
+    """A state machine for traffic light"""
+    global state_num  # НЕ создание новой переменной для state_num
+
+    if state_num == 0:  # Переход из состояния 0 в состояние 1
+        henry.color('darkgrey')
+        alex.color('darkgrey')
+        tess.color('green')
+        dar.color('darkgrey')
+        bux.color('darkgrey')
+        skeg.color('green')
+        kim.color('darkgrey')
+        cin.color('darkgrey')
+        chin.color('green')
+        shym.color('darkgrey')
+        bro.color('darkgrey')
+        oleg.color('green')
+
+        pas.color('red')
+        mot.color('darkgrey')
+        ger.color('darkgrey')
+        abama.color('red')
+        tyrc.color('darkgrey')
+        hub.color('darkgrey')
+        ban.color('red')
+        her.color('darkgrey')
+        pes.color('darkgrey')
+        port.color('red')
+        bili.color('darkgrey')
+        goga.color('darkgrey')
+        wn.ontimer(advance_state_machine, 3000)  # таймер на 3 секунды
+        state_num = 1
+    elif state_num == 1:  # Переход из состояния 1 в состояние 2
+        henry.color('darkgrey')
+        alex.color('orange')
+        dar.color('darkgrey')
+        bux.color('orange')
+        kim.color('darkgrey')
+        cin.color('orange')
+        shym.color('darkgrey')
+        bro.color('orange')
+
+        pas.color('darkgrey')
+        mot.color('orange')
+        abama.color('darkgrey')
+        tyrc.color('orange')
+        ban.color('darkgrey')
+        her.color('orange')
+        port.color('darkgrey')
+        bili.color('orange')
+        wn.ontimer(advance_state_machine, 1000)
+        state_num = 2
+    elif state_num == 2:  # Переход из состояния 2 в состояние 3
+        tess.color('darkgrey')
+        skeg.color('darkgrey')
+        chin.color('darkgrey')
+        oleg.color('darkgrey')
+
+        ger.color('darkgrey')
+        hub.color('darkgrey')
+        pes.color('darkgrey')
+        goga.color('darkgrey')
+        wn.ontimer(advance_state_machine, 1000)
+        state_num = 3
+    else:                 # Переход из состояния 3 в состояние 0
+        henry.color('red')
+        alex.color('darkgrey')
+        dar.color('red')
+        bux.color('darkgrey')
+        kim.color('red')
+        cin.color('darkgrey')
+        shym.color('red')
+        bro.color('darkgrey')
+
+        ger.color('green')
+        mot.color('darkgrey')
+        hub.color('green')
+        tyrc.color('darkgrey')
+        pes.color('green')
+        her.color('darkgrey')
+        goga.color('green')
+        bili.color('darkgrey')
+        wn.ontimer(advance_state_machine, 2000)
+        state_num = 0
+
+
+advance_state_machine()
+wn.listen()  # хз как это правильно назвать...дословно это "смотреть события"
+
+wn.mainloop()  # ожидание пока юзер закроет окно черепахи
